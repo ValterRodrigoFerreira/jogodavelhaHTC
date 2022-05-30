@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Jogo da Velha</title>
+</head>
+
+<body>
+  <section class="big-container">
+    <section class="section-left">
+      <div class="section-info-left">
+        <div class="players-names">
+          <input class="player-name1" placeholder="Jogador 1" />
+          <div class="player-field-wrapper">
+            <input class="player-name2" placeholder="Jogador 2" />
+            <div class="switcher-player">
+              <div class="button-switcher"></div>
+            </div>
+          </div>
+        </div>
+        <h2 class="titlle-typematch">Tipo de Partida</h2>
+
+        <div class="bestmatch">
+          <span class="bestmatchtext">Melhor de 3</span>
+          <div class="switcher-two">
+            <div class="button-switcher-two"></div>
+          </div>
+          <span class="bestmatchtext">Melhor de 5</span>
+        </div>
+
+        <button class="button-play">Jogar</button>
+
+        <div class="match-history">
+          <h2 class="tittle-match-history">Histórico de Partida</h2>
+          <ul class="match-history-text">
+            <li class="match-history-item">
+              <div class="winner-wrapper">
+                <div class="first-square">
+                  <strong class="winner-vicotry">Vencedor</strong>
+                  <strong class="text-square">Primeiro Quadrado</strong>
+                </div>
+                <span class="scenery-label">Cenário</span>
+                <div class="mini-board">
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item"></span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="match-history-text">
+            <li class="match-history-item">
+              <div class="winner-wrapper">
+                <div class="first-square">
+                  <strong class="winner-vicotry">Vencedor</strong>
+                  <strong class="text-square">Primeiro Quadrado</strong>
+                </div>
+                <span class="scenery-label">Cenário</span>
+                <div class="mini-board">
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item">X</span>
+                  <span class="mini-board-item"></span>
+                  <span class="mini-board-item">O</span>
+                  <span class="mini-board-item">X</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button class="button-restart">Reiniciar</button>
+      </div>
+
+    </section>
+
+    <section class="section-center">
+      <div class="div-aling-center">
+        <div class="score-players">
+          <h1 class="score-titlle">Placar</h1>
+          <div class="score">
+            <span class="score-player-one">00</span>
+            <span class="winner-player-text">Jogador</span>
+            <span class="score-player-two">00</span>
+          </div>
+        </div>
+
+        <div class="display-tic-tac-toe">
+          <span class="display-game-item displaygame0"></span>
+          <span class="display-game-item displaygame1"></span>
+          <span class="display-game-item displaygame2"></span>
+          <span class="display-game-item displaygame3"></span>
+          <span class="display-game-item displaygame4"></span>
+          <span class="display-game-item displaygame5"></span>
+          <span class="display-game-item displaygame6"></span>
+          <span class="display-game-item displaygame7"></span>
+          <span class="display-game-item displaygame8"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-rigth">
+      <h2 class="history-titlle-match">Histórico de Jogadas</h2>
+      <ul class="history-move-match">
+      </ul>
+    </section>
+    <script src=""></script>
+
+  </section>
+
+  <script src="index.js"> </script>
+</body>
+
+</html>
